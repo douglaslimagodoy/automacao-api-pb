@@ -60,7 +60,7 @@ bundle exec cucumber
 
 GET /users: verifica o retorno da lista de usuários, status 200 e valida o JSON Schema.
 
-POST /posts: cria um post, verifica status 201 e campos obrigatórios na resposta.
+POST /posts: cria um post, verifica status 201, campos obrigatórios na resposta e JSON Schema.
 
 PUT /posts/:id: atualiza um post existente, valida status 200, campos atualizados e JSON Schema.
 
